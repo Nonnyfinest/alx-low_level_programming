@@ -1,18 +1,16 @@
 #include "main.h"
 
 /**
- * main - entry point
- * author: Nonso
- * Return: always 0
+ * _isupper - entry point
+ * check for uppercase letters
+ * @c: char to check
+ * Return: 0 or 1
  */
 
-int main(void)
+int _isupper(int c)
 {
-	int C = 1;
-
-	if (1 == C)
-		_putchar('1');
+	if (c >= 'A' && c <= 'Z')
+		return (1);
 	else
-		_putchar('0');
-	return (0);
+		return (0);
 }
