@@ -10,7 +10,7 @@ int main(void)
 {
 	int C = 1;
 
-	if (C == 1)
+	if (1 == C)
 		_putchar('1');
 	else
 		_putchar('0');
